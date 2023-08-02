@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #020617;
+}
+
+
+.chatRoom{
+    height: 85vh;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1e293b;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.chat{
+    color: #e2e8f0;
+    font-size: large;
+}
+
+.msg{
+    background: #0f172a;
+    max-width: 30vw;
+    padding: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 8px;
+    list-style-type: none;
+    margin-top: 5px;
+    color: #e2e8f0;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.centre{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    clear: both;
+}
+
+.chatBox{
+    padding-top: 4px;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.chatForm{
+    display: flex;
+    justify-content: center;
+}
+
+.msgInput{
+    padding: 10px;
+    width: 62vw;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid white;
+}
+
+.btn{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+
+.reactionBtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reaction-box{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 40vh;
+    left: 45vw;
+    background: #0f172a;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.reaction-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactions{
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
